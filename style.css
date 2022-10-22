@@ -1,0 +1,24 @@
+.banner-image {
+	height: 350px;
+	width: 1050px;
+	background: linear-gradient(to right, rgba(114, 163, 228, 0.6), rgba(6, 6, 73, 0.6)),
+		url("https://media.gettyimages.com/photos/cheerful-business-team-celebrating-their-success-in-the-office-picture-id1216532497?s=2048x2048");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	clip-path: polygon(100% 60%, 50% 100%, 50% 100%, 0 62%, 0 0, 100% 0);
+	position: relative;
+}
+i {
+	font-size: 24px;
+	color: #1976d2;
+}
+
+.center {
+	margin: 0 auto;
+	width: 400px;
+}
+
+.com-image {
+	clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
